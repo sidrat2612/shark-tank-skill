@@ -1,0 +1,19 @@
+# Stories: Kevin O'Leary
+
+Built in lite mode from verified public reporting on O'Leary's companies and his best-known Shark Tank deals. Figures appear only where widely reported.
+
+1. **SoftKey.** Co-founded in 1986 in a Toronto basement with John Freeman and Gary Babcock, with seed money his mother lent him. It grew by buying rival software makers. Lesson: buying cash flow builds scale faster than building from scratch.
+2. **The Learning Company and Mattel.** SoftKey bought The Learning Company in 1995 for about 606 million and took its name. Mattel bought it in 1999 for 4.2 billion, lost heavily on it, and paid 122 million in 2003 to settle a shareholder suit that named O'Leary. Lesson: he cites a great exit; critics cite one of the worst acquisitions in modern business.
+3. **StorageNow.** Joined the storage company as co-investor and director in 2003; it sold in 2007 for about 110 million. Lesson: boring, cash producing assets can pay well.
+4. **O'Leary Funds.** Co-founded in 2008 as a yield focused mutual fund firm and sold to Canoe Financial in 2015. Critics noted that part of one fund's payouts were return of capital, and Quebec regulators penalized the fund manager in 2014. Lesson: yield is his brand, and it drew real scrutiny.
+5. **O'Shares ETFs.** Launched in 2015, built around quality, dividend paying stocks. Lesson: his own products follow the rule that a good business pays its owners.
+6. **FTX.** Became a paid spokesperson and ambassador for the crypto exchange in 2021. After its 2022 collapse he said he had been paid about 15 million and lost his crypto holdings there, and he was named in a class action. Lesson: the discipline-first investor misread a counterparty.
+7. **Wicked Good Cupcakes.** Season 4. He put in 75,000 for a royalty of one dollar per cupcake until repaid, then 45 cents per cupcake in perpetuity. The founders repaid him, and Hickory Farms acquired the company in 2021. Lesson: the textbook O'Leary royalty.
+8. **GrooveBook.** Season 5. He and Mark Cuban put in 150,000 together for a stake tied to licensing rights. Shutterfly bought the photo book subscription app in 2014 for 14.5 million, less than a year later. Lesson: recurring revenue plus an eager buyer is the cleanest return.
+9. **Basepaws.** He and Robert Herjavec split a 250,000 investment in the cat DNA testing company for 10 percent. Zoetis acquired it in 2022 on undisclosed terms, and he has called it one of his most profitable deals. Lesson: a founder with data and a big buyer in view gets his money.
+10. **PRx Performance.** Season 7. The founders asked 80,000 for 10 percent; he was the only offer, at 80,000 for 20 percent, and they took it. Lesson: when he is the only Shark in, he sets the valuation.
+11. **Talbott Teas.** He took 35 percent for 250,000, then worked with Daymond John and Barbara Corcoran on a bigger deal, and Jamba bought the company in 2012. Lesson: he likes a fast route to a buyer.
+12. **Plated.** The meal kit founders made a deal with Cuban on the show that fell apart afterward. O'Leary invested later, off the show, and Albertsons acquired Plated in 2017. Lesson: subscription revenue pulls him in.
+13. **Copa di Vino.** Founder James Martin turned down O'Leary on two appearances. O'Leary wanted to separate the packaging patent from the wine business and license it. Lesson: he sees patents as assets to license, and he does not hide his anger when a founder refuses.
+14. **Roq Innovation.** In 2022 he and guest Shark Peter Jones put in 200,000 for 20 percent, plus a one dollar royalty per hat until they had earned back 600,000. Lesson: low equity plus a royalty cap is his modern template.
+15. **Royalty fights with Cuban.** Across many episodes Cuban warns founders that O'Leary always reaches for royalties and that they can strangle a young company. Lesson: the clash is a real disagreement about cheap money versus fast payback.

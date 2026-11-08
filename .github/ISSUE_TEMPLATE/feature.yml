@@ -1,0 +1,17 @@
+name: Feature request
+description: Suggest a new mode, flag, or improvement to the tank.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What you want to do
+      description: The pitch or workflow this would help with.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+    validations:
+      required: true

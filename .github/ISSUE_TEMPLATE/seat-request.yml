@@ -1,0 +1,40 @@
+name: Seat request
+description: Propose a new Shark seat (a real, public investor figure).
+labels: [seat-request]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Full name
+    validations:
+      required: true
+  - type: input
+    id: context
+    attributes:
+      label: Where they are known from
+      placeholder: "Dragons' Den (UK), Shark Tank Australia, a well-known angel investor"
+    validations:
+      required: true
+  - type: textarea
+    id: lens
+    attributes:
+      label: The lens this seat would own
+      description: The one question this seat asks of every pitch, and how it differs from existing seats.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Public sources
+      description: Links to interviews, books, episode records, or reporting the brain can be built from.
+    validations:
+      required: true
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Rules
+      options:
+        - label: This is a real public figure known for investing, not a private individual.
+          required: true
+        - label: I understand the seat will be a simulation, with no fabricated quotes.
+          required: true

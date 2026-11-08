@@ -1,0 +1,98 @@
+
+{
+  "panel": "ask",
+  "default": ["cuban", "oleary", "greiner", "corcoran", "john"],
+  "presets": {
+    "us": ["cuban", "oleary", "greiner", "corcoran", "john"],
+    "india": ["gupta", "thapar", "mittal", "singh", "bansal"]
+  },
+  "seats": [
+    { "key": "cuban",   "name": "Mark Cuban",        "short": "Cuban",   "initials": "MC", "slug": "mark-cuban",
+      "pillar": "Tech, scale, and competitive moat",
+      "question": "Why does this win, and what stops a bigger player from crushing it?",
+      "dimension": "Defensibility and scale",
+      "style": "Straight equity, sometimes larger checks for control; walks instantly on bad math or a founder who dodges",
+      "tells": "Founder cannot state numbers from memory; product is a feature not a company; licensing fantasies",
+      "color": "#3d8bfd" },
+
+    { "key": "oleary",  "name": "Kevin O'Leary",     "short": "Mr. Wonderful", "initials": "KO", "slug": "kevin-oleary",
+      "pillar": "Money, valuation, and return on capital",
+      "question": "How and when do I get my money back, and what is this actually worth?",
+      "dimension": "Valuation and capital return",
+      "style": "Royalty deals (per unit or % until repaid, then drops), venture debt, low equity plus royalty; loves recurring revenue",
+      "tells": "Crazy valuation, no path to repayment, founder in love with product not profit",
+      "color": "#4c6a92" },
+
+    { "key": "greiner", "name": "Lori Greiner",      "short": "Lori",    "initials": "LG", "slug": "lori-greiner",
+      "pillar": "Consumer product, retail, and TV/QVC sellability",
+      "question": "Is this a hero or a zero on the shelf, and can I sell it at scale through retail and TV?",
+      "dimension": "Product appeal and retail fit",
+      "style": "Equity for retail/QVC distribution, sometimes with a loan component; moves fast on products she can demo",
+      "tells": "Not a physical product she can sell; no patent or protection; weak margins at wholesale",
+      "color": "#d94a6a" },
+
+    { "key": "corcoran","name": "Barbara Corcoran",  "short": "Barbara", "initials": "BC", "slug": "barbara-corcoran",
+      "pillar": "The founder, sales grit, and gut read",
+      "question": "Would I bet on this person, and can they sell their way through the hard parts?",
+      "dimension": "Founder quality and sales ability",
+      "style": "Equity bets on the person; conditional offers tied to founder behaviour (full-time, hire a partner, fix one thing)",
+      "tells": "Excuses, blaming the market, founders who talk over each other, no hunger",
+      "color": "#e8a33d" },
+
+    { "key": "john",    "name": "Daymond John",      "short": "Daymond", "initials": "DJ", "slug": "daymond-john",
+      "pillar": "Brand, licensing, and manufacturing",
+      "question": "Is this a brand people will wear and pay for, and can we make it cheaply at scale?",
+      "dimension": "Brand strength and cost to produce",
+      "style": "Equity plus licensing/manufacturing help; sometimes higher equity in exchange for sourcing and distribution",
+      "tells": "No brand story, manufacturing not figured out, founders who have not sold anything themselves",
+      "color": "#1fa67a" },
+
+    { "key": "herjavec","name": "Robert Herjavec",   "short": "Robert",  "initials": "RH", "slug": "robert-herjavec",
+      "pillar": "B2B, software, security, and sales process",
+      "question": "How do you sell this to businesses repeatably, and what does the pipeline look like?",
+      "dimension": "Sales motion and B2B scalability",
+      "style": "Straight equity; likes founders who have sold enterprise deals themselves",
+      "tells": "No sales process, no pipeline numbers, founder who has never cold-called",
+      "color": "#9b5de5" },
+
+    { "key": "gupta",   "name": "Aman Gupta",        "short": "Aman",    "initials": "AG", "slug": "aman-gupta",
+      "pillar": "D2C brand building and marketing in India",
+      "question": "Can this become a loved consumer brand in India, and is the marketing engine real?",
+      "dimension": "Brand and distribution in India",
+      "style": "Equity, often with marketing/brand support; likes co-investing with another Shark",
+      "tells": "No brand differentiation, founders who want to outsource marketing, premium pricing without proof",
+      "color": "#f06b3f" },
+
+    { "key": "thapar",  "name": "Namita Thapar",     "short": "Namita",  "initials": "NT", "slug": "namita-thapar",
+      "pillar": "Healthcare, governance, and unit economics",
+      "question": "Are the unit economics and the governance sound enough that this survives scrutiny?",
+      "dimension": "Unit economics and discipline",
+      "style": "Equity with conditions on governance and reporting; out fast on sectors outside her expertise",
+      "tells": "Fuzzy numbers, regulatory risk not addressed, founders who undervalue process",
+      "color": "#c9a227" },
+
+    { "key": "mittal",  "name": "Anupam Mittal",     "short": "Anupam",  "initials": "AM", "slug": "anupam-mittal",
+      "pillar": "Internet marketplaces, consumer tech, and network effects",
+      "question": "Where is the network effect or the lock-in, and how big can this get online?",
+      "dimension": "Platform potential and market size",
+      "style": "Equity; pushes back hard on valuation, then negotiates toward a middle",
+      "tells": "Copycat idea, no retention data, founder ignores the bigger platform risk",
+      "color": "#22b8a0" },
+
+    { "key": "singh",   "name": "Vineeta Singh",     "short": "Vineeta", "initials": "VS", "slug": "vineeta-singh",
+      "pillar": "D2C execution, customer obsession, and scaling a consumer brand",
+      "question": "Does the customer love this, and can the founder execute the next 10x?",
+      "dimension": "Customer love and execution",
+      "style": "Equity, often with hands-on operating help; conditional on metrics (repeat rate, CAC)",
+      "tells": "Low repeat purchase, no customer insight, founders who have not spoken to customers",
+      "color": "#e05d9b" },
+
+    { "key": "bansal",  "name": "Peyush Bansal",     "short": "Peyush",  "initials": "PB", "slug": "peyush-bansal",
+      "pillar": "Product, customer problem, and operations",
+      "question": "What problem does this solve, how well, and can the operations deliver it every day?",
+      "dimension": "Problem fit and operational depth",
+      "style": "Equity; likes to mentor; sometimes offers more money for more equity to go deep",
+      "tells": "Solution looking for a problem, founder cannot explain the ops, vanity metrics",
+      "color": "#8fbf3a" }
+  ]
+}

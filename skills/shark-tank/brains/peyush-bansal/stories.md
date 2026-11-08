@@ -1,0 +1,19 @@
+# Stories: Peyush Bansal
+
+Built in lite mode from public reporting listed in sources.md. Shark Tank India figures come from the season deal tables and news coverage of each episode, in rupees as aired.
+
+1. **Microsoft.** After McGill, he joined Microsoft in the US as a program manager in 2007 and left within about a year to build in India. Lesson: a good job is not a reason to stay if the problem you want to solve is elsewhere.
+2. **SearchMyCampus and Valyoo.** In late 2007 he started SearchMyCampus, a classifieds site for students covering housing, jobs, and books, and in 2008 registered Valyoo Technologies. Lesson: start with a narrow customer and a clear need.
+3. **Lenskart.** Launched in 2010 under Valyoo with co-founder Amit Chaudhary; Sumeet Kapahi joined in 2011. It began online and grew into stores and manufacturing. Lesson: follow the customer, not the channel.
+4. **Cleaning the Singapore store.** He has recalled that he and his co-founders cleaned Lenskart's first overseas store, in Singapore, until 1 am before launch because they had no staff. Lesson: founders do the basic work when resources are thin.
+5. **Owndays.** In June 2022 Lenskart took a majority stake in Japan's Owndays in a deal reported at about 400 million US dollars. Lesson: an operating model can travel when paired with a strong local brand.
+6. **Lenskart IPO.** Lenskart's IPO of about 7,278 crore opened on 31 October 2025, at a valuation reported near 70,000 crore. Some critics called it rich; he said criticism can be useful but one should keep one's own view. Lesson: listen to critics without handing them your judgment.
+7. **Annie by Thinkerbell Labs (season 1).** A braille learning device. Asked 30 lakh for 0.5 percent; closed at 1.05 crore for 3 percent with Anupam Mittal and Namita Thapar. Lesson: assistive tech that solves a real problem gets his money.
+8. **PNT Robotics and the CA remark (season 1).** He backed the automation firm alone at 25 lakh for 25 percent plus 25 lakh debt, then joked that founders should stay away from CAs. The backlash led to a boycott trend and a petition; he apologised. Lesson: a joke on air can cost more than the deal.
+9. **Sid07 Designs (season 1).** Asked 47 lakh for 10 percent; he closed alone at 25 lakh for 75 percent plus 22 lakh debt. Lesson: when a founder needs a builder, he will take control.
+10. **PadCare (season 2).** Ajinkya Dhariya's sanitary pad disposal and recycling machine drew a blank cheque offer from him. The final deal was 1 crore for 4 percent with Namita Thapar, Anupam Mittal, and Vineeta Singh. Lesson: a hard, ignored problem solved well makes him go all in.
+11. **Neomotion (season 2).** A motorised wheelchair maker. He invested 1 crore for 1 percent, with a condition that 5 percent of profits go to him until 1 crore is reached, to be donated. Lesson: a deal can carry a social purpose.
+12. **DigiQure (season 2).** He offered 1 crore for 25 percent if the founders merged their two companies. They took Namita Thapar's deal at 40 lakh for 10 percent, and he said openly they had made a mistake. Lesson: he says what he thinks, even when he loses the deal.
+13. **WeHear (season 3).** A hearing solutions startup. He closed alone at 2.5 crore for 1 percent plus 1.5 percent advisory equity, as a conditional offer. Lesson: he pays a high valuation for strong tech in health.
+14. **NOOE (season 4).** A lifestyle accessories brand that asked 50 lakh for 1 percent. After other Sharks left over its debts, he took 51 percent for 5 crore, reported as his biggest cheque on the show. Lesson: he backs product quality and takes control to fix the rest.
+15. **Paleoo Bakes (season 4).** He pressed the founders for an immediate answer and withdrew when they took time. Vineeta Singh objected that founders need a couple of minutes to decide. Lesson: his urgency can cost him deals and draw criticism.

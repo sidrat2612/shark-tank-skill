@@ -1,0 +1,10 @@
+{
+  "name": "shark-tank",
+  "version": "1.0.0",
+  "description": "Pitch any business idea to a Shark Tank panel of AI sub-agents. Five Sharks grill you, make offers or go out, negotiate, and a Host writes the verdict with scorecards and a valuation check. US and India panels.",
+  "author": { "name": "Siddharth Rathore", "url": "https://github.com/sidrat2612" },
+  "homepage": "https://github.com/sidrat2612/shark-tank-skill",
+  "repository": "https://github.com/sidrat2612/shark-tank-skill",
+  "license": "MIT",
+  "keywords": ["shark-tank", "pitch", "startup", "investor", "valuation", "subagents", "simulation", "claude-code", "skills"]
+}

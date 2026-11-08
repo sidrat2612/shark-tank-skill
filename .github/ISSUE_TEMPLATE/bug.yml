@@ -1,0 +1,30 @@
+name: Bug report
+description: Something in the Host or a Shark did not work as documented.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: The command you ran, what you expected, and what you got.
+      placeholder: "/shark-tank --quick ... produced an offer with no implied valuation"
+    validations:
+      required: true
+  - type: dropdown
+    id: install
+    attributes:
+      label: How you installed it
+      options: [Plugin marketplace, install.sh into ~/.claude, install.sh --project, Cloned this repo]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Claude Code version
+      placeholder: "run: claude --version"
+  - type: textarea
+    id: output
+    attributes:
+      label: Relevant output
+      description: Paste the card, verdict, or error. Remove anything private from your pitch first.
+      render: markdown

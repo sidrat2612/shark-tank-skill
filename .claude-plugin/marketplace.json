@@ -1,0 +1,12 @@
+{
+  "name": "shark-tank-skill",
+  "owner": { "name": "Siddharth Rathore", "url": "https://github.com/sidrat2612" },
+  "description": "The Shark Tank pitch panel for Claude Code.",
+  "plugins": [
+    {
+      "name": "shark-tank",
+      "source": "./",
+      "description": "Pitch a business idea to five Shark sub-agents. Questions, offers, negotiation, verdict."
+    }
+  ]
+}
