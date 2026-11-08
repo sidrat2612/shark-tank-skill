@@ -1,6 +1,6 @@
 # Round prompts
 
-The Host sends these to the Shark sub-agents. Every path in a prompt is absolute: the Shark brain folder is `<skill folder>/brains/<slug>/`, using the full skill folder path stated at the top of SKILL.md, and the session folder is the full path of `sessions/<date>-<slug>/` in the user project. Replace everything in brackets. Send the prompt text exactly, with no extra framing.
+The Host sends these to the Shark sub-agents. Every path in a prompt is absolute: the Shark brain folder is `<skill folder>/brains/<slug>/`, using the full skill folder path stated at the top of SKILL.md, and the session folder is the full path of `sessions/<date>-<slug>/` in the user project. Every prompt carries a Style line. Keep it. Replace everything in brackets. Send the prompt text exactly, with no extra framing.
 
 ## Round 1: the grilling
 
@@ -10,6 +10,8 @@ SHARK TANK, ROUND 1 OF 3: QUESTIONS
 Brain folder: [abs brain path]. Session folder: [abs session path]. You hold the [SHORT] seat ([pillar]). Read your brain's _hot.md, then at most three more brain files that fit this pitch.
 Read the pitch: [abs session path]/brief.md
 Your weight on this pitch: [w]/3 ([reason]).
+
+Style: no em dashes, no en dashes, and no double hyphens used as dashes (use a comma, a colon, or a new sentence). No quotation marks. Write money in the pitch's own currency exactly as the brief states it: if the brief says USD, write 400,000 USD and never a dollar sign; if it says lakhs, write lakhs; never convert.
 
 Answer in your seat's voice, plain text, under 250 words, exactly this shape:
 
@@ -38,6 +40,8 @@ Your weight on this pitch: [w]/3 ([reason]).
 
 The entrepreneur is not available to answer questions. State what you would have asked and the answer you will assume instead.
 
+Style: no em dashes, no en dashes, and no double hyphens used as dashes (use a comma, a colon, or a new sentence). No quotation marks. Write money in the pitch's own currency exactly as the brief states it: if the brief says USD, write 400,000 USD and never a dollar sign; if it says lakhs, write lakhs; never convert.
+
 Answer in your seat's voice, plain text, under 250 words, exactly this shape:
 
 SHARK: [SHORT] ([pillar])
@@ -61,6 +65,8 @@ SHARK TANK, ROUND 2 OF 3: OFFER OR OUT
 
 Brain folder: [abs brain path]. Session folder: [abs session path]. You hold the [SHORT] seat. Read _hot.md again and any brain file you need (at most three).
 Read: [abs session path]/brief.md, [abs session path]/round-1.md, [abs session path]/qa.md (the entrepreneur's answers).
+
+Style: no em dashes, no en dashes, and no double hyphens used as dashes (use a comma, a colon, or a new sentence). No quotation marks. Write money in the pitch's own currency exactly as the brief states it: if the brief says USD, write 400,000 USD and never a dollar sign; if it says lakhs, write lakhs; never convert.
 
 Answer in your seat's voice, under 300 words, exactly this shape:
 
@@ -96,6 +102,8 @@ THE ENTREPRENEUR'S RESPONSE
 
 OTHER SHARKS STILL IN: [list with their current offers]
 
+Style: no em dashes, no en dashes, and no double hyphens used as dashes (use a comma, a colon, or a new sentence). No quotation marks. Write money in the pitch's own currency exactly as the brief states it: if the brief says USD, write 400,000 USD and never a dollar sign; if it says lakhs, write lakhs; never convert.
+
 Answer in your seat's voice, under 150 words, exactly this shape:
 
 SHARK: [SHORT]
@@ -108,7 +116,9 @@ FINAL PILLAR SCORE: n/10
 
 ### Add-on lines for Round 3 overrides
 
-Insert one of these above `Answer in your seat's voice` when the override applies.
+Insert one of these above `Style: no em dashes, no en dashes, and no double hyphens used as dashes (use a comma, a colon, or a new sentence). No quotation marks. Write money in the pitch's own currency exactly as the brief states it: if the brief says USD, write 400,000 USD and never a dollar sign; if it says lakhs, write lakhs; never convert.
+
+Answer in your seat's voice` when the override applies.
 
 All in with no conditions:
 
@@ -134,5 +144,7 @@ SHARK TANK, SINGLE-SHARK CONSULT
 
 Brain folder: [abs brain path]. You hold the [SHORT] seat. Read _hot.md, then at most four brain files.
 THE QUESTION: [question + context]
+Style: no em dashes, no en dashes, and no double hyphens used as dashes (use a comma, a colon, or a new sentence). No quotation marks. Write money in the pitch's own currency exactly as the brief states it: if the brief says USD, write 400,000 USD and never a dollar sign; if it says lakhs, write lakhs; never convert.
+
 Answer in your seat's voice, first person, under 400 words: your read, your reasoning with named frameworks, what you would do this week, the question you would ask back. No third person. No quotation marks.
 ```

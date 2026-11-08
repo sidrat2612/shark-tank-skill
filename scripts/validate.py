@@ -128,6 +128,12 @@ def check_em_dashes(problems):
                 problems.append(f"em dash in {path.relative_to(ROOT)}")
 
 
+def check_style_lines(problems):
+    text = (SKILL / "references" / "round-prompts.md").read_text(encoding="utf-8")
+    if text.count("Style: no em dashes, no en dashes") < 6:
+        problems.append("round-prompts.md: every prompt needs the Style line (expected 6)")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--seat", help="check only this seat key")
@@ -140,6 +146,7 @@ def main():
         problems = []
         check_roster(roster, problems)
         check_em_dashes(problems)
+        check_style_lines(problems)
         print(f"{'repo':10} {'OK' if not problems else 'FAIL'}")
         for p in problems:
             print(f"    - {p}")

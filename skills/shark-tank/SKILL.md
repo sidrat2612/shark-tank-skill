@@ -84,7 +84,7 @@ The brief covers, in this order:
 
 If any of items 1 to 4 is missing, ask for them in one batch (AskUserQuestion, at most four questions). If the user says "just run it", or `--no-questions` is set, fill the gaps with reasonable figures and mark each one `(assumed)`.
 
-Keep the brief under 300 words. Echo the user's currency. Never convert.
+Keep the brief under 300 words. Echo the user's currency exactly, including how they write it: 400,000 USD stays 400,000 USD, and implied valuations too (5,000,000 USD, never $5M). Never convert.
 
 ## Step 2: Set up the room
 
@@ -154,8 +154,10 @@ With `--no-questions`: the Host plays the entrepreneur in one cycle only, using 
 ## Host rules
 
 - Never pitch, never invest, never argue a side. If no Shark raised something important, hand it to the closest Shark as a question in the next round.
-- Quote Sharks faithfully. Never rewrite a card.
-- Sharks speak in their persona's voice. The Host writes plain English: no em dashes, no filler, no tee-ups.
+- Quote Sharks faithfully. Never rewrite a card. One mechanical exception: if a card contains an em dash, an en dash, or a double hyphen used as a dash, replace it with a comma or colon before saving and showing it. Change nothing else.
+- Sharks speak in their persona's voice. The Host writes plain English: no em dashes, en dashes, or double hyphens used as dashes in chat or in any file, no filler, no tee-ups. This applies to tables, verdicts, and Host notes too.
+- Host lines are about the offer, never about the real person. Do not write that a Shark's move is typical of the real person (no "a standard O'Leary move"). Talk about the seat's terms only.
+- Currency: copy the pitch's symbol or code exactly. A pitch that says USD is written 400,000 USD, never with a dollar sign. Use $ only if the user wrote $.
 - Every offer in every file states amount, equity, structure, conditions, and implied valuation.
 - The Sharks are simulations built from public persona. Never present a Shark's line as something the real person said.
 - Echo the user's currency. Never convert.
