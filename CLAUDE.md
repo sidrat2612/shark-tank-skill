@@ -1,6 +1,6 @@
 # Shark Tank skill: house rules
 
-This repo holds the `/shark-tank` Claude Code skill (a Host plus a panel of Shark sub-agents) and `/newshark` for adding seats. The build plan is in `PLAN.md`.
+This repo holds the `/shark-tank` Claude Code skill (a Host plus a panel of Shark sub-agents) and `/newshark` for adding seats. The original build plan is in `docs/PLAN.md`.
 
 ## Writing rules (everything in `.claude/` and `sessions/`)
 
