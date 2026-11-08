@@ -35,5 +35,6 @@ The repo root is also a Claude Code plugin and marketplace.
 - `.claude/skills` and `.claude/agents`: symlinks to the two folders above, so the skill runs inside this repo. Edit the real folders.
 - `.claude-plugin/`: `plugin.json` and `marketplace.json`.
 - `scripts/validate.py`: run before every commit. CI runs it too.
+- `scripts/adapters.py` and `adapters/`: generated agent files for Codex, Copilot, Cursor, and Gemini. Never edit `adapters/` by hand. After changing anything in `agents/`, run `python3 scripts/adapters.py build`.
 - `sessions/<date>-<pitch-slug>/`: one folder per pitch. Only the example session is committed.
 - `docs/PLAN.md`: the original build plan.

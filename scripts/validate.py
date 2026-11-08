@@ -134,6 +134,14 @@ def check_style_lines(problems):
         problems.append("round-prompts.md: every prompt needs the Style line (expected 6)")
 
 
+def check_adapters(problems):
+    import subprocess
+    r = subprocess.run([sys.executable, str(ROOT / "scripts" / "adapters.py"), "check"],
+                       capture_output=True, text=True)
+    if r.returncode:
+        problems.append("adapters/ is stale: run python3 scripts/adapters.py build\n" + r.stdout.strip())
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--seat", help="check only this seat key")
@@ -147,6 +155,7 @@ def main():
         check_roster(roster, problems)
         check_em_dashes(problems)
         check_style_lines(problems)
+        check_adapters(problems)
         print(f"{'repo':10} {'OK' if not problems else 'FAIL'}")
         for p in problems:
             print(f"    - {p}")

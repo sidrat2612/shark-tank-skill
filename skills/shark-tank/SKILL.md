@@ -33,6 +33,8 @@ Spawn Sharks with the Agent tool. Pick the agent type in this order:
 
 Remember which form worked on the first spawn and use it for the rest of the session.
 
+Other tools (Codex, Copilot, Cursor, Gemini CLI): this skill is installed at `.agents/skills/shark-tank/`, and the Claude-format agent files sit at `.agents/agents/`, so `../../agents` still resolves. Spawn the native sub-agent named `shark-<key>` if the tool has one. If not, or if the tool cannot run sub-agents in parallel, read `../../agents/shark-<key>.md` and follow it yourself, one Shark at a time (see Without sub-agents). Where this file says AskUserQuestion, ask in plain chat.
+
 ## Modes
 
 Read the arguments and pick one mode.

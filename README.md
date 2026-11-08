@@ -151,6 +151,21 @@ flowchart LR
 
 A full tank is 15 sub-agent runs (5 Sharks x 3 rounds). Use `--quick` for a cheaper read.
 
+## Other coding agents (experimental)
+
+The skill also installs for Codex, GitHub Copilot, Cursor, and Gemini CLI. All four read `.agents/skills/`. Each has its own sub-agent format, so `scripts/adapters.py` converts the Shark agent files.
+
+```bash
+git clone https://github.com/sidrat2612/shark-tank-skill.git
+python3 shark-tank-skill/scripts/adapters.py install all --dest /path/to/your/project
+```
+
+Use `codex`, `copilot`, `cursor`, or `gemini` in place of `all` to install one. Then run `/shark-tank <pitch>` (Codex: `$shark-tank`). If the tool cannot run sub-agents in parallel, the Host plays the Sharks one at a time and says so in the verdict.
+
+Only Claude Code is tested end to end. The others follow each tool's current docs but are not yet verified in a live run. Reports from real runs are welcome as issues.
+
+After editing anything in `agents/`, run `python3 scripts/adapters.py build`. `validate.py` fails if `adapters/` is stale.
+
 ## Add your own Shark
 
 ```text

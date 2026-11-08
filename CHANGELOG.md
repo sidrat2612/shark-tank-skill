@@ -2,6 +2,16 @@
 
 All notable changes to this project are listed here. Versions follow [Semantic Versioning](https://semver.org/), and match `version` in `.claude-plugin/plugin.json`.
 
+## [Unreleased]
+
+### Added
+
+- `scripts/adapters.py`: builds and installs the skill for Codex, Copilot, Cursor, and Gemini CLI. `validate.py` fails if `adapters/` is stale.
+
+### Fixed
+
+- Shark and Host output no longer uses em dashes, double hyphens as dashes, or dollar signs for non-dollar pitches. Every round prompt carries a Style line.
+
 ## [1.0.0] - 2026-11-08
 
 First public release.
