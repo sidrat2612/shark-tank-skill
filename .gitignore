@@ -1,19 +1,88 @@
-# OS and editors
-.DS_Store
-*.swp
-.idea/
-.vscode/
-
-# Local tool state
-.serena/
-.claude/scheduled_tasks.lock
-.claude/settings.local.json
-
-# Python
-__pycache__/
-*.pyc
-
-# Your own pitches stay local. Only the example session is committed.
+# ----------------------------------------------------------------------
+# Pitches
+# Your own pitches stay on your machine. Only the example session ships.
+# ----------------------------------------------------------------------
 sessions/*
 !sessions/.gitkeep
 !sessions/*example*/
+
+# ----------------------------------------------------------------------
+# Claude Code: local and per-user state
+# .claude/skills and .claude/agents are committed symlinks, keep them.
+# ----------------------------------------------------------------------
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+.claude/*.lock
+.claude/todos/
+.claude/projects/
+.claude/shell-snapshots/
+.claude/statsig/
+CLAUDE.local.md
+
+# Other AI and agent tooling
+.serena/
+.cursor/
+.aider*
+.continue/
+.windsurf/
+.codex/
+
+# ----------------------------------------------------------------------
+# Secrets and environment
+# ----------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ----------------------------------------------------------------------
+# Python (scripts/validate.py)
+# ----------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ----------------------------------------------------------------------
+# Node (CI installs Claude Code with npm; contributors may lint locally)
+# ----------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+
+# ----------------------------------------------------------------------
+# Build output and scratch
+# build/ is reserved for future --deep brain sources.
+# ----------------------------------------------------------------------
+build/
+dist/
+tmp/
+*.tmp
+*.log
+
+# ----------------------------------------------------------------------
+# OS and editors
+# ----------------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.code-workspace
