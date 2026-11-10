@@ -18,6 +18,10 @@
 
 <p align="center"><i>The Sharks are simulations built from public persona. They are not the real people and are not affiliated with or endorsed by them, the show, or its producers.</i></p>
 
+<p align="center">
+  <img src="assets/demo.gif" alt="A pitch session: five AI Sharks grill a smart lunchbox pitch, all go out, and the Host gives a verdict" width="800">
+</p>
+
 ---
 
 ## Why
@@ -219,6 +223,10 @@ CI runs the same check on every PR, plus `claude plugin validate`.
 ## Credits
 
 The one-agent-plus-brain-per-seat design is adapted from [nateherkai/roast-room](https://github.com/nateherkai/roast-room). Shark Tank is a trademark of its owners; this project is an unaffiliated fan tool.
+
+## Enjoyed your pitch?
+
+If the Sharks made you sharper, a star on this repo helps other founders find it. Share your verdict, and keep the line that the Sharks are simulations.
 
 ## Star history
 
