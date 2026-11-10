@@ -86,3 +86,6 @@ Desktop.ini
 .idea/
 .vscode/
 *.code-workspace
+
+# Local marketing material, not part of the skill
+marketing/
